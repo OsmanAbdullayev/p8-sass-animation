@@ -1,0 +1,90 @@
+@keyframes pulseSun {
+    from {
+        box-shadow: 0 0 0 0 #ff373790;
+    }
+
+    to {
+        box-shadow: 0 0 0 100px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet1 {
+    from {
+        box-shadow: 0 0 0 0 red;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+
+@keyframes pulsePlanet2 {
+    from {
+        box-shadow: 0 0 0 0 orange;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet3 {
+    from {
+        box-shadow: 0 0 0 0 yellow;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet4 {
+    from {
+        box-shadow: 0 0 0 0 green;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet5 {
+    from {
+        box-shadow: 0 0 0 0 blue;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet6 {
+    from {
+        box-shadow: 0 0 0 0 teal;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+@keyframes pulsePlanet7 {
+    from {
+        box-shadow: 0 0 0 0 violet;
+    }
+
+    to {
+        box-shadow: 0 0 0 15px rgb(0, 0, 0, 0)
+    }
+}
+
+// @keyframes body {
+//     0%, 100% {
+// background-color: rgb(159, 83, 39);
+//     }
+
+//     50% {
+//         background-color: teal;
+//     }
+// }

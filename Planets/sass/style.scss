@@ -1,0 +1,18 @@
+@import 'reset';
+@import 'orbit1';
+@import 'pulse';
+@import 'rotation';
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.container {
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}

@@ -1,0 +1,176 @@
+.sun {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    // left: 25%;
+    // top: 25%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #ff3737;
+    animation: pulseSun 2s linear infinite;
+}
+
+.orbit1 {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 3s linear infinite;
+}
+
+
+
+.planet1 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: red;
+    animation: pulsePlanet1 1s linear infinite;
+
+}
+
+
+.orbit2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 2s linear infinite;
+}
+
+
+.planet2 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: orange;
+    animation: pulsePlanet2 1s linear infinite;
+}
+
+
+
+.orbit3 {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 1s linear infinite;
+}
+
+
+.planet3 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: yellow;
+    animation: pulsePlanet3 2s linear infinite;
+}
+
+
+.orbit4 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 10s linear infinite;
+}
+
+
+.planet4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 50%;
+    top: -10px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: green;
+    animation: pulsePlanet4 2s linear infinite;
+}
+
+
+.orbit5 {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 5s linear infinite;
+}
+
+
+.planet5 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 50%;
+    bottom: -5px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: blue;
+    animation: pulsePlanet5 2s linear infinite;
+}
+
+
+.orbit6 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 3s linear infinite;
+}
+
+
+.planet6 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: teal;
+    animation: pulsePlanet6 2s linear infinite;
+}
+
+
+.orbit7 {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 1px solid #05550599;
+    animation: rotateOrbit1 5s linear infinite;
+}
+
+
+.planet7 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background-color: violet;
+    animation: pulsePlanet7 2s linear infinite;
+}

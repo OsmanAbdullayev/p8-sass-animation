@@ -1,0 +1,391 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Montserrat, sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sun {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #ff3737;
+  -webkit-animation: pulseSun 2s linear infinite;
+          animation: pulseSun 2s linear infinite;
+}
+
+.orbit1 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 3s linear infinite;
+          animation: rotateOrbit1 3s linear infinite;
+}
+
+.planet1 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: red;
+  -webkit-animation: pulsePlanet1 1s linear infinite;
+          animation: pulsePlanet1 1s linear infinite;
+}
+
+.orbit2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 2s linear infinite;
+          animation: rotateOrbit1 2s linear infinite;
+}
+
+.planet2 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: orange;
+  -webkit-animation: pulsePlanet2 1s linear infinite;
+          animation: pulsePlanet2 1s linear infinite;
+}
+
+.orbit3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 1s linear infinite;
+          animation: rotateOrbit1 1s linear infinite;
+}
+
+.planet3 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: yellow;
+  -webkit-animation: pulsePlanet3 2s linear infinite;
+          animation: pulsePlanet3 2s linear infinite;
+}
+
+.orbit4 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 10s linear infinite;
+          animation: rotateOrbit1 10s linear infinite;
+}
+
+.planet4 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 50%;
+  top: -10px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: green;
+  -webkit-animation: pulsePlanet4 2s linear infinite;
+          animation: pulsePlanet4 2s linear infinite;
+}
+
+.orbit5 {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 5s linear infinite;
+          animation: rotateOrbit1 5s linear infinite;
+}
+
+.planet5 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 50%;
+  bottom: -5px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: blue;
+  -webkit-animation: pulsePlanet5 2s linear infinite;
+          animation: pulsePlanet5 2s linear infinite;
+}
+
+.orbit6 {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 3s linear infinite;
+          animation: rotateOrbit1 3s linear infinite;
+}
+
+.planet6 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: teal;
+  -webkit-animation: pulsePlanet6 2s linear infinite;
+          animation: pulsePlanet6 2s linear infinite;
+}
+
+.orbit7 {
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  border: 1px solid rgba(5, 85, 5, 0.6);
+  -webkit-animation: rotateOrbit1 5s linear infinite;
+          animation: rotateOrbit1 5s linear infinite;
+}
+
+.planet7 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  background-color: violet;
+  -webkit-animation: pulsePlanet7 2s linear infinite;
+          animation: pulsePlanet7 2s linear infinite;
+}
+
+@-webkit-keyframes pulseSun {
+  from {
+    box-shadow: 0 0 0 0 rgba(255, 55, 55, 0.5647058824);
+  }
+  to {
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes pulseSun {
+  from {
+    box-shadow: 0 0 0 0 rgba(255, 55, 55, 0.5647058824);
+  }
+  to {
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet1 {
+  from {
+    box-shadow: 0 0 0 0 red;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet1 {
+  from {
+    box-shadow: 0 0 0 0 red;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet2 {
+  from {
+    box-shadow: 0 0 0 0 orange;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet2 {
+  from {
+    box-shadow: 0 0 0 0 orange;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet3 {
+  from {
+    box-shadow: 0 0 0 0 yellow;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet3 {
+  from {
+    box-shadow: 0 0 0 0 yellow;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet4 {
+  from {
+    box-shadow: 0 0 0 0 green;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet4 {
+  from {
+    box-shadow: 0 0 0 0 green;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet5 {
+  from {
+    box-shadow: 0 0 0 0 blue;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet5 {
+  from {
+    box-shadow: 0 0 0 0 blue;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet6 {
+  from {
+    box-shadow: 0 0 0 0 teal;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet6 {
+  from {
+    box-shadow: 0 0 0 0 teal;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes pulsePlanet7 {
+  from {
+    box-shadow: 0 0 0 0 violet;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulsePlanet7 {
+  from {
+    box-shadow: 0 0 0 0 violet;
+  }
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}
+@-webkit-keyframes rotateOrbit1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateOrbit1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
